@@ -1,0 +1,538 @@
+body{
+      margin: 0;
+      padding: 0;
+      overflow: auto;
+      background-color: rgb(233, 227, 227) !important;
+      scroll-behavior: smooth;
+      box-sizing: border-box;
+
+}
+
+.clearfix::after{
+      content: "";
+      display: block;
+      clear: both;
+}
+.big-wrapper{
+      background-image: url("../imgs/banner.jpg");
+      width: 100%;
+      min-height:700px;
+      background-position: right;
+      background-size: cover;
+      background-attachment: fixed;
+  
+}
+
+/* navbar */
+#my-nav{
+      height: 90px;
+}
+.navbar-header span{
+      font-size: 50px;
+      color: palevioletred;
+      font-family: cursive;
+      padding-left: 15px;
+}
+.navbar-header a {
+      font-size: 30px;
+      font-family: cursive;
+      font-weight: bolder;
+}
+/* banner starts */
+.banner-text{
+      font-family: 'Montserrat', sans-serif;
+      max-width: 730px;
+      position: absolute;
+      top: 50%;
+   
+      color: #fff;
+}
+.banner-text input{
+      background-color:#fff;
+      color: black;
+      width: 400px;
+      height: 40px;
+      margin: 5% 0 -10px 20px;
+}
+.banner-text #my-btn{
+      height: 38px;
+      border-radius: 0;
+      margin-bottom: 3px;
+      font-family: inherit;
+      margin: 0px;
+  
+
+}
+.banner-text h1{
+      font-size: 60px;
+      font-weight: bolder;
+      margin: 20px;
+      transition: 0.3s;
+}
+.banner-text h1:hover{
+      word-spacing: 10px;
+}
+.banner-text p{
+      font-size: 15px;
+      font-weight: bolder;
+      margin: 20px;
+      max-width: 630px;
+      text-align: justify;
+      line-height: 25px;
+
+}
+
+/* four sec start */
+#custom{
+      background-color: #fff;
+      padding: 50px;
+      
+
+}
+.four-sec{
+      
+      margin-top:70px;
+      margin-bottom:70px;
+      
+      
+}
+.four-sec h4{
+      font-size: 25px;
+      font-weight: bolder;
+      margin-bottom: 20px;
+ 
+}
+.four-sec p{
+      font-size: 15px;
+      line-height: 30px;
+      margin-bottom: 20px;
+      text-align: justify;
+}
+.line{
+      width: 90%;
+      margin-top: 50px;
+      margin-left: 10px;
+      height: 15px;
+      background-color: rgb(231, 66, 88);
+
+}
+
+/* four sec end */
+/* tow sec starts */
+.two-sec h2{
+      font-weight: bolder;
+      font-size: 40px;
+      margin-bottom: 30px;
+     
+}
+.two-sec h4{
+      font-weight: 400;
+      word-spacing: 10px;
+      font-size: 20px;
+      margin-bottom: 30px;
+      
+}
+#custom-2{
+      background-color: #fff;
+      padding: 50px;
+     
+}
+
+.two-sec p{
+      font-weight: 400;
+      word-spacing: 10px;
+      font-size: 15px;
+      margin-bottom: 30px;
+      padding: 20px;
+      text-align: justify;
+      
+}
+.two-sec .left{
+      width: 48%;
+      text-align: justify;
+      background-color: rgb(233, 227, 227);
+      float: left;
+}
+.two-sec .left h1,.right h1{
+      text-align: center;
+      padding: 10px;
+      /* padding-top:30px; */
+      font-size: 50px;
+      color: rgb(231, 66, 88);
+      font-weight: bolder;
+     
+     
+}
+.two-sec .left p,.right p{
+      text-align: justify;
+      text-align-last: center;
+}
+.two-sec .right{
+      width: 48%;
+      text-align: justify;
+      background-color: rgb(233, 227, 227);
+      float: right;
+}
+/* two sec ends */
+/* services starts */
+.services{
+      text-align: center;
+      padding: 30px;
+      
+}
+.services h6{
+      font-size:15px;
+      letter-spacing: 5px;
+      padding: 10px;
+}
+.services h2{
+      font-weight: bolder;
+      letter-spacing: 5px;
+      word-spacing: 10px;
+      padding: 10px;
+}
+/* icon sec starts */
+.icon-sec{
+      margin: 50px;
+         box-shadow: 2px 2px 5px 5px #ad8a8a;
+}
+.icon-sec h5{
+      font-size: 20px;
+      font-weight: 900;
+      text-align: center;
+      padding:20px;
+}
+.icon-sec p{
+      
+      
+      text-align: center;
+      padding:8px;
+      color: gray;
+}
+/* icon styling my icon */
+.my-icon{
+      font-size: 70px;
+     text-align: center;
+      color:rgb(231, 66, 88) ;
+}
+.top-margin{
+      margin-top: 50px;
+}
+
+/* work sec starts */
+
+.work-sec {
+      padding: 50px;
+}
+.work-sec img{
+      width: 300px;
+      height: 300px;
+
+}
+.work-sec .bg-col{
+     background-color: bisque;
+}
+.work-sec h2{
+      font-size: 40px;
+      font-weight: bolder;
+      margin-bottom: 20px;
+}
+.work-sec p{
+      color:gray;
+      font-size: 18px;
+      line-height: 30px; 
+     
+}
+.work-sec h3{
+      font-size: 17px;
+      letter-spacing: 10px;
+    
+      margin-bottom: 20px;
+      text-align: center;
+}
+
+/* digits  */
+.mar-top{
+      padding-top: 50px;
+      padding-bottom: 50px;
+}
+.digit{
+      text-align: center;
+      padding: 10px;
+      /* padding-top:30px; */
+      font-size: 50px;
+      color: rgb(231, 66, 88);
+      font-weight: bolder;
+}
+.digit-bg{
+      background-color: #fff;
+}
+/* works and digit sec end */
+
+/* team starts */
+.team{
+      padding:30px;
+      margin: 20px;
+}
+.team .img{
+      width: 100%;
+      position: relative;
+      top: -60px;
+      left: px;
+      border: 5px solid #fff;
+      
+}
+
+.team .bg-col-2{
+      background-color: gray;
+      padding:30px;
+      margin-left: 50px;
+      border: 5px solid #fff;
+    
+
+}
+.team .bg-col-3{
+      background-color: rgb(161, 106, 106);
+      padding:30px;
+      border: 5px solid #fff;
+
+}
+.team .bg-col-4{
+      background-color: gray;
+      padding:30px;
+      border: 5px solid #fff;
+   
+
+
+}
+/* about */
+#about {
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 2px 2px 5px 5px #ad8a8a;
+}
+.about h3{
+      color: gray;
+      font-size:20px;
+
+}
+.about h2{
+     
+      font-weight: bolder;
+      margin-bottom: 20px;
+     font-size: 40px;
+      word-spacing: 10px;
+
+}
+.about p{
+      color: gray;
+      word-spacing: 10px;
+      text-align: justify;
+      padding: 10px 0 20px 0;
+
+}
+.about h4{
+      color: gray;
+      word-spacing: 10px;
+      text-align: justify;
+     
+}
+.about .circle-btn{
+      width: 200px;
+      border-radius:40% ;
+      padding: 10px;
+      margin: 20px;
+}
+.about img{
+      width: 100%;
+      height: 480px;
+      
+}
+
+/* pricing starts */
+.pricing{
+      margin: 30px 0 30px 0;
+      
+      
+}
+.pricing h1{
+      text-align: center;
+      padding: 10px;
+      /* padding-top:30px; */
+      font-size: 50px;
+      color: rgb(231, 66, 88);
+      font-weight: bolder;
+}
+.pricing .btn-mrg{
+      margin-top: 30px;
+
+}
+
+/* help starts */
+
+.help input{
+      background:none;
+}
+.help input:hover{
+      background-color: rgb(37, 37, 37);
+      color: #fff;
+}
+.help{
+      margin: 40px;
+   
+}
+.help h3{
+      color: gray;
+      font-size:20px;
+
+}
+.help h2{
+     
+      font-weight: bolder;
+      margin-bottom: 20px;
+     font-size: 40px;
+      word-spacing: 10px;
+
+}
+.help p{
+      color: gray;
+      text-align: justify;
+      padding: 10px 0 20px 0;
+
+}
+.help ul {
+      padding-left: 20px;
+}
+.help ul li{
+      font-weight: bolder;
+      line-height: 30px;
+      font-size: 20px;
+}
+.help h4{
+      color: rgb(231, 66, 88);
+      font-size: 20px;
+      padding: 10px 0;
+      line-height: 30px;
+}
+.help .white-div{
+      background-color: #fff;
+      padding: 60px 40px;
+      box-shadow: 2px 2px 5px 5px #ad8a8a;
+}
+.help .white-div .btn-top{
+      margin-top: 30px;
+}
+
+/* footer */
+.footer{
+      background-image:url("../imgs/background.jpg") ;
+      background-position:top center;
+      background-size: cover;
+      /* height: 100px; */
+      width: 100%;
+}
+.footer h5{
+      text-align: center;
+      color: #fff;
+      font-size: 20px;
+      /* margin-top: 90px; */
+      
+      font-family: 'Courier New', Courier, monospace;
+}
+.footer .footer-icon{
+      text-align: end;
+}
+.footer .footer-icn{
+      padding: 20px ;
+      font-size: 30px;
+      color:black;
+}
+.footer .adress{
+      margin-top: 30px;
+      margin-left: 20px;
+}
+.footer p{
+      color: #fff;
+      margin-top: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      letter-spacing: 2px;
+      font-size: 20px;
+}
+
+
+
+
+/* media quary STARTS */
+
+
+@media(max-width:450px) {
+      .big-wrapper {
+
+            background-position: right center;
+      }
+
+      .banner-text h1 {
+            font-size: 40px;
+            margin-top: -80px;
+      }
+
+      .banner-text p {
+            width: 320px;
+      }
+
+      .banner-text input {
+            width: 250px;
+      }
+
+      .banner-text #my-btn {
+            margin-left: 20px;
+            margin-top: 20px;
+      }
+
+
+
+}
+
+/* @media(max-width:500px){
+      .banner-text h1{
+            font-size: 40px;
+            margin-top:-150px;
+      }
+      .banner-text #my-btn{
+            margin-left: 20px;
+            margin-top: 20px;
+      }
+      
+.team .bg-col-2{
+      background-color: gray;
+      padding:30px;
+      margin-left: 0px;
+      border: 5px solid #fff;
+    
+
+}
+.footer{
+      background-position:center center;
+}
+
+      
+} */
+@media(max-width:1000px) {
+      .banner-text h1 {
+            font-size: 40px;
+            margin-top: -80px;
+      }
+
+      .banner-text #my-btn {
+            margin-left: 20px;
+            margin-top: 20px;
+      }
+
+      .team .bg-col-2 {
+            background-color: gray;
+            padding: 30px;
+            margin-left: 0px;
+            border: 5px solid #fff;
+      }
+
+}
